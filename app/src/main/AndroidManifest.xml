@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PictureBook">
         <activity
+            android:name=".FifthPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".SecondPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
@@ -22,9 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

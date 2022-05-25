@@ -23,21 +23,22 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="276dp"
         android:fontFamily="@font/acme"
-        android:text="2. Play Buzz"
+        android:text="3. Dornald Duck"
         android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.057" />
 
     <TextView
         android:id="@+id/tvParam"
         android:layout_width="265dp"
         android:layout_height="101dp"
-        android:text="Yogi Bear is an anthropomorphic animal character who has appeared in numerous comic books, animated television shows and films."
+        android:text="Donald Fauntleroy Duck is a cartoon character created by The Walt Disney Company. Donald is an anthropomorphic white duck with a yellow-orange bill, legs, and feet."
         android:textAlignment="inherit"
         android:textColor="@color/black"
         android:textSize="20dp"

@@ -12,7 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         nxt = findViewById(R.id.btnNxt)
 
-        var intent = Intent(this, SecondPageActivity::class.java)
-        startActivity(intent)
+       nxt.setOnClickListener {
+           var intent = Intent(this, SecondPageActivity:: class.java)
+           startActivity(intent)
+       }
     }
 }
