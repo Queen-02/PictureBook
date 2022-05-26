@@ -11,7 +11,7 @@
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/lilita_one"
         android:text="Welcome..."
         android:textColor="#0788BA"
@@ -37,7 +37,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="264dp"
+        android:layout_marginEnd="248dp"
         android:fontFamily="@font/acme"
         android:text="1. Poor Bear"
         android:textColor="@color/black"
@@ -45,7 +45,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintVertical_bias="0.148" />
 
     <TextView
         android:id="@+id/tvParam"
